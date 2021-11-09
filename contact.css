@@ -20,6 +20,8 @@
     margin-right: 30px;
     width: 30%;
     padding-bottom: 2px;
+    padding: 2px;
+    outline: none;
   }
 
   .form div{
