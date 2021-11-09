@@ -1,0 +1,138 @@
+:root {
+    --green: #4e9b69;
+    --blue: #14abd5;
+    --gray: #f6f5f3;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+  }
+  
+  a:hover,
+  a:link,
+  a:active,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .hidden {
+    overflow-y: hidden;
+  }
+  
+  .currentPage{
+    color: var(--green);
+  }
+
+  .contact-form{
+    padding: 50px 100px;
+    width: 80%;
+  }
+
+  .contact-title{
+    margin-bottom: 10px;
+    color: var(--green);
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  .contact-text{
+    margin-bottom: 40px;
+  }
+
+  .contact-form input{
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-right: 30px;
+    width: 30%;
+    padding-bottom: 2px;
+  }
+
+  .form div{
+    margin-bottom: 30px;
+  }
+
+  .form label{
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  .form textarea{
+    width: 65%;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 60px;
+  }
+
+  .contact-form input[type="submit"]{
+    display: inline-block;
+    width: 150px;
+    border: 2px solid var(--green);
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 20px;
+    color: var(--green);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+    transition: all .1s ease;
+    cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover{
+    color: #fff;
+    background-color: var(--green);
+  }
+
+  @media screen and (max-width: 900px) {
+    .contact-form{
+      padding: 50px 80px;
+      width: 90%;
+    }
+
+    .contact-form input{
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .contact-form{
+      padding: 50px 60px;
+      width: 100%;
+    }
+
+    .contact-form input{
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contact-form{
+      padding: 50px 60px;
+      width: 100%;
+    }
+  
+    .contact-form input{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .form textarea{
+      width: 100%;
+      height: 80px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .contact-form{
+      padding: 50px ;
+      width: 100%;
+    }
+  }
