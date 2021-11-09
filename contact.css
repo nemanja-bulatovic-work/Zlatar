@@ -1,37 +1,4 @@
-:root {
-    --green: #4e9b69;
-    --blue: #14abd5;
-    --gray: #f6f5f3;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
-  
-  body {
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: "Kanit", sans-serif;
-  }
-  
-  a:hover,
-  a:link,
-  a:active,
-  a:visited {
-    text-decoration: none;
-  }
-  
-  .hidden {
-    overflow-y: hidden;
-  }
-  
-  .currentPage{
-    color: var(--green);
-  }
-
-  .contact-form{
+ .contact-form{
     padding: 50px 100px;
     width: 80%;
   }
