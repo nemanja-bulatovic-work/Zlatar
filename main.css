@@ -167,7 +167,7 @@ a.apartment-link:hover{
   position: relative;
   overflow: hidden;
   text-align: center;
-  height: 90px;
+  height: 135px;
   width: 50%;
   margin: 25px auto 0 auto;
 }
@@ -244,7 +244,7 @@ a.apartment-link:hover{
   }
 
   .slider {
-    height: 140px;
+    height: 165px;
   }
 
   .buttons button#prev {
@@ -271,7 +271,7 @@ a.apartment-link:hover{
 
 @media screen and (max-width: 350px) {
   .slider {
-    height: 220px;
+    height: 255px;
   }
 }
 

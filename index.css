@@ -323,6 +323,11 @@ main {
 .footer p {
   text-align: center;
   color: #fff;
+  font-weight: 500;
+}
+
+.footer span{
+  font-weight: 400;
 }
 
 .footer {

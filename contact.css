@@ -16,7 +16,7 @@
 
   .contact-form input{
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #dcdcdc;
     margin-right: 30px;
     width: 30%;
     padding-bottom: 2px;
@@ -36,8 +36,13 @@
   .form textarea{
     width: 65%;
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #dcdcdc;
     height: 60px;
+    outline: var(--green)
+  }
+
+  .form textarea:focus{
+    border: 1px solid var(--green)
   }
 
   .contact-form input[type="submit"]{
