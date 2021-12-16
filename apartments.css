@@ -152,6 +152,9 @@
 .slide1:nth-child(5){
   background: url("./images/apartman1-5.jpg") no-repeat center center/cover;
 }
+.slide1:nth-child(6){
+  background: url("./images/apartman1-6.jpg") no-repeat center center/cover;
+}
 .slide2{
   background: url("./images/apartman2-1.jpg") no-repeat center center/cover;
 }
@@ -205,6 +208,12 @@
   margin: 20px 0px;
 }
 
+@media screen and (max-width: 1024px) {
+  .slider {
+    height: 350px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .apartment {
     flex-direction: column;
@@ -218,7 +227,7 @@
   }
 
   .slider {
-    height: 400px;
+    height: 300px;
   }
   
   .apartment-hero-list-wrapper {
@@ -251,7 +260,7 @@
   }
 
   .slider {
-    height: 300px;
+    height: 250px;
   }
   .apartment-hero-list-wrapper {
     flex-direction: column;

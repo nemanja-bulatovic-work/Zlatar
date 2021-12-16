@@ -13,6 +13,9 @@
 .about {
   padding: 100px;
   width: 100%;
+}
+
+.about-wrapper {
   display: flex;
   align-items: center;
 }
@@ -23,7 +26,12 @@
   margin-right: 40px;
 }
 
-.about-image img {
+.about-image-mob{
+  display: none;
+}
+
+.about-image img,
+.about-image-mob img {
   width: 100%;
   height: 100%;
 }
@@ -41,6 +49,26 @@
   text-transform: uppercase;
 }
 
+.apartment-pics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.apartment-pic1 {
+  width: 60%;
+}
+
+.apartment-pic2 {
+  width: 35%;
+}
+
+.apartment-pic1 img,
+.apartment-pic2 img {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 1000px) {
   .about-image {
     height: 300px;
@@ -48,13 +76,12 @@
 }
 
 @media screen and (max-width: 900px) {
-  .about {
+  .about-wrapper {
     flex-direction: column;
     align-items: flex-start;
   }
 
   .about-image {
-    height: 400px;
     width: 100%;
   }
 
@@ -73,24 +100,58 @@
   .about-hero p{
     width: 100%;
   }
+
+  .about {
+    padding: 80px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .about-image {
+    display: none;
+  }
+
+  .about-image-mob {
+    display: inline-block;
     height: 300px;
     width: 100%;
+  }
+
+  .about {
+    padding: 50px;
+    width: 100%;
+  }
+
+  .apartment-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .apartment-pic1 {
+    width: 100%;
+  }
+  
+  .apartment-pic2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .about-image-mob {
+    height: 250px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .about {
-    padding: 50px;
-  }
 
-  .about-image {
+  .about-image-mob {
+    display: inline-block;
     height: 200px;
     width: 100%;
-    margin-right: 0;
   }
 }
 
@@ -204,19 +265,19 @@
 
 @media screen and (max-width: 600px) {
   .slider {
-    height: 180px;
+    height: 220px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .slider {
     height: 240px;
   }
 }
 
-
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   .slider {
-    height: 255px;
+    height: 260px;
   }
 }
+
